@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-principal
+{
+    width: 30%;
+    border-radius: 8px;
+    margin: auto;
+    height: 80vh;
+    background-color: rgb(129, 189, 241);
+    box-shadow: 0 0 7px rgb(129, 189, 241);
+}
+
+body
+{
+    background-color: white;
+    padding-top: 30px;
+}
+
+.input-group
+{
+    padding-top: 50px;
+    text-align: center;
+}
+
+input 
+{
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    font-size: 15px;
+    box-shadow: 0 0 5px black;
+}
+
+button
+{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cidade
+{
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.text-temp
+{
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    display: none;
+    background-color: white;
+    color: rgb(129, 189, 241);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 0 5px white;
+    border: none;
+}
+
+.img-clima
+{
+    text-align: center;
+    margin: auto;
+}
+
+img
+{
+    width: 32%;
+}
+
+h2
+{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.city-temp
+{
+    display: none;
+}
+
+@media only screen and (max-width: 1300px)
+{
+    body
+    {
+        padding-bottom: 30px;
+    }
+    .content-principal
+    {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1300px) and (orientation: landscape)
+{
+    .content-principal
+    {
+        height: 150vh;
+    }
+}
